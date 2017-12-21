@@ -22,5 +22,5 @@
   <node name="rviz" pkg="rviz" type="rviz" required="true"
       args="-d $(find cartographer_ros)/configuration_files/demo_3d.rviz" />
   <node name="playbag" pkg="rosbag" type="play"
-      args="--clock /home/chen/Downloads/data/kaibo.bag -r 0.5" />
+      args="--clock /root/Downloads/data/foo_12_16.bag" />
 </launch>
